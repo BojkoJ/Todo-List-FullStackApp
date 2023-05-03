@@ -3,8 +3,9 @@
 
 ## Jak funguje:
 ### pomocí expressu vytvořené RESTful API provádí http requesty na databázi
+### data jsou uloženy do PostgreSQL databáze. (db_name: perntodo, table_name: todo)
 ### server příjímá data z databáze a posílá na front-end
-### fron-end (tvořen pomocí React.js a tailwindcss) zobrazuje data, sám se po každém requestu refreshne, bez toho aniž by refreshoval stránku
+### front-end (tvořen pomocí React.js a tailwindcss) zobrazuje data, sám se po každém requestu refreshne, bez toho aniž by refreshoval stránku
 
 ## Jak spustit:
 ### Vytvořit PostgreSQL databázi pomocí příkazů v souboru: Application/server/database.sql
